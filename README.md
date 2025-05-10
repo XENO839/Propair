@@ -37,16 +37,6 @@
 
 ---
 
-## 📷 Screenshots
-
-> Add these image files in a folder named `screenshots/` inside your project.
-
-| Skill Assessment | AI Result | Skill Swap |
-|------------------|-----------|------------|
-| ![Assessment](screenshots/quiz.png) | ![Results](screenshots/results.png) | ![Swap](screenshots/skillswap.png) |
-
----
-
 ## 🧪 How to Run Locally
 
 ### 1. Clone the Repository
