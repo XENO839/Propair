@@ -1,46 +1,79 @@
 # 💼 ProPair – Skill Assessment & Skill Swap App
 
-**ProPair** is a modern mobile application built with Flutter that helps users evaluate their skills, receive AI-powered job readiness results, and connect with peers for skill-based learning and exchange. It supports **UN Sustainable Development Goal 8: Decent Work & Economic Growth**.
+**ProPair** is a smart mobile application designed to solve a real-world problem under the **UN Sustainable Development Goal 8 (SDG 8)**: *Decent Work & Economic Growth*.
+
+---
+
+## 🧩 Problem Statement
+
+**SDG Goal 8 – Decent Work & Economic Growth**
+
+**Design a job skills assessment and matching platform**  
+Many students and young professionals struggle to identify their job-readiness or connect with peers for skill development. Traditional systems lack personalization, validation, and guidance. ProPair addresses this by offering:
+
+- Skill assessment
+- AI-powered result analysis
+- Peer-based skill swapping
+- Job/career readiness suggestions
+
+---
+
+## 💡 Proposed Solution
+
+**ProPair** is a mobile app built with Flutter that:
+- Tests users' skill levels through quizzes.
+- Uses **ChatGPT AI** to analyze and suggest personalized career paths.
+- Helps users **offer and request skills** from others.
+- Enables **certificate uploads** and future **chat-based collaboration**.
+
+This improves job readiness, promotes self-learning, and opens doors for mutual growth and networking.
 
 ---
 
 ## 🚀 Features
 
-- 📊 **AI Skill Assessment**
-  - Take a quiz to identify your strengths and career readiness.
-  - Results include skill type, level, learning path, and suggested careers.
+### 📊 AI Skill Assessment
+- Answer 5 multiple-choice questions.
+- Instantly get:
+  - Skill Type
+  - Skill Level
+  - Job Market Readiness
+  - Suggested Skill
+  - Learning Tips
 
-- 🔁 **Skill Swap System**
-  - Users can list skills they offer and skills they want to learn.
-  - Upload certificates to validate offered skills.
-  - Get matched with users based on mutual skill needs.
+### 🔁 Skill Swap System
+- Input what skill you offer and what you want to learn.
+- Get matched with peers who have complementary needs.
+- Upload certificates as proof of skills.
 
-- 🧠 **ChatGPT AI Integration**
-  - Personalized career suggestions.
-  - Smart analysis of quiz results using OpenAI.
+### 🧠 ChatGPT AI Integration
+- Generates personalized results using OpenAI GPT-3.5.
+- Recommends roles and learning paths.
 
-- 💬 **Group Chat**
-  - Chat with matched users or learning groups.
+### 💬 Group Chat *(Planned)*
+- Peer learning via chat rooms or group messages.
 
-- 📱 **Clean UI + Dark Mode**
-  - White & purple modern theme with responsive layout.
-  - Supports both light and dark modes.
+### 🌗 Clean UI + Dark Mode
+- Sleek white & purple layout.
+- Toggle dark mode seamlessly.
+- Optimized for mobile.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Flutter (Dart)
-- **Backend:** Firebase (Auth, Firestore, Storage)
-- **AI:** ChatGPT API (OpenAI)
-- **Platform:** Android, iOS (Flutter Cross-platform)
+| Layer        | Technology              |
+|--------------|--------------------------|
+| Frontend     | Flutter (Dart)           |
+| Backend      | Firebase (Auth, Firestore, Storage) |
+| AI/Logic     | OpenAI GPT-3.5 API       |
+| Platform     | Android (Live), iOS (Future) |
 
 ---
 
 ## 🧪 How to Run Locally
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/your-username/propair.git
 cd propair
